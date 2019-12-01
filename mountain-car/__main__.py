@@ -29,7 +29,7 @@ class TrainState:
 
     eps_policy = 1.0
     eps_policy_decay = 0.05
-    eps_policy_min = 0.01  # policy it at least 1% random
+    eps_policy_min = 0.01  # policy is at least 1% random
     model: models.Model = field(default_factory=partial(create_network, 0.001))
     replays: Deque = field(default_factory=partial(deque, maxlen=20000))
     n_replay_samples = 32
