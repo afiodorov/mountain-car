@@ -2,7 +2,7 @@
 name = "mountain-car"
 version = "0.1.0"
 description = "Solution to Mountain Car from https://gym.openai.com/"
-authors = ["Tom Artiom Fiodorov <tom@glassnode.com>"]
+authors = ["Tom Artiom Fiodorov <a.fiodorov@yahoo.co.uk>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
