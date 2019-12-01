@@ -10,7 +10,7 @@ from keras import layers, models
 from keras.optimizers import Adam
 
 
-def create_network(learning_rate) -> models.Model:
+def create_network(learning_rate: float) -> models.Model:
     """Initialise the Neural Network with state as input and Q-value against each action as
     output"""
     model = models.Sequential()
@@ -26,7 +26,6 @@ def create_network(learning_rate) -> models.Model:
 @dataclass
 class TrainState:
     """Contains training params and the model"""
-
     eps_policy = 1.0
     eps_policy_decay = 0.05
     eps_policy_min = 0.01  # policy it at least 1% random
