@@ -1,0 +1,12 @@
+*.pyc
+.DS_Store
+
+*.ipynb_checkpoints/
+
+**/.cache
+
+**/gnomes/imgs/
+
+.ropeproject
+*.egg-info
+.mypy_cache
