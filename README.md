@@ -7,7 +7,7 @@ Read more about the solution here: [deep-q][deep].
 
 # How to run
 
-Instal [poetry][poetry]. Then run `poetry install`. Due to a [bug][bug] in Tensorflow,
+Install [poetry][poetry]. Then run `poetry install`. Due to a [bug][bug] in Tensorflow,
 you should also run `pip install tensorflow` to install it separately. Finally run
 
 `python -m mountain-car`
