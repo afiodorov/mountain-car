@@ -26,6 +26,7 @@ def create_network(learning_rate: float) -> models.Model:
 @dataclass
 class TrainState:
     """Contains training params and the model"""
+
     eps_policy = 1.0
     eps_policy_decay = 0.05
     eps_policy_min = 0.01  # policy it at least 1% random
